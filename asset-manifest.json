@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/KnHostel/static/css/main.05ebcfea.css",
+    "main.js": "/KnHostel/static/js/main.46470153.js",
+    "static/media/02.jpg": "/KnHostel/static/media/02.7cad917bbeaabfd459a0.jpg",
+    "static/media/09.jpg": "/KnHostel/static/media/09.12ebaed4174b592ef351.jpg",
+    "static/media/08.jpg": "/KnHostel/static/media/08.7b915d1f9d3d27824ba3.jpg",
+    "static/media/bg-img.jpg": "/KnHostel/static/media/bg-img.66a359b031159437f31e.jpg",
+    "static/media/07.jpg": "/KnHostel/static/media/07.890d16dffee53f92e083.jpg",
+    "static/media/18.jpg": "/KnHostel/static/media/18.be38d927d36e27a845bd.jpg",
+    "static/media/10.jpg": "/KnHostel/static/media/10.587dcf43eaf7caa5eb62.jpg",
+    "static/media/06.jpg": "/KnHostel/static/media/06.d4114bbc867c84dbc794.jpg",
+    "static/media/12.jpg": "/KnHostel/static/media/12.b7bd440f3003c396a33c.jpg",
+    "static/media/01.jpg": "/KnHostel/static/media/01.cd6a8749a2007218c2dc.jpg",
+    "static/media/14.jpg": "/KnHostel/static/media/14.1a915c467da0a6edece7.jpg",
+    "static/media/16.jpg": "/KnHostel/static/media/16.5ad5254ff737b5c8c3d3.jpg",
+    "static/media/15.jpg": "/KnHostel/static/media/15.337a33456ee3af01aad4.jpg",
+    "static/media/03.jpg": "/KnHostel/static/media/03.f5984ab4ab4010a12844.jpg",
+    "static/media/11.jpg": "/KnHostel/static/media/11.17046adbcd2b921eb954.jpg",
+    "static/media/05.jpg": "/KnHostel/static/media/05.6a039adecca4f7428af1.jpg",
+    "static/media/17.jpg": "/KnHostel/static/media/17.2421dff66603f04b0a82.jpg",
+    "static/media/04.jpg": "/KnHostel/static/media/04.61cf42e93adbfdfb4982.jpg",
+    "static/media/13.jpg": "/KnHostel/static/media/13.634314500536c19e2a4b.jpg",
+    "index.html": "/KnHostel/index.html",
+    "main.05ebcfea.css.map": "/KnHostel/static/css/main.05ebcfea.css.map",
+    "main.46470153.js.map": "/KnHostel/static/js/main.46470153.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05ebcfea.css",
+    "static/js/main.46470153.js"
+  ]
+}
