@@ -1,0 +1,46 @@
+.serviceContainer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+    padding: 100px 0;
+} 
+.services{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.serviceContainer .title{
+    font-size: 1.3rem;
+    color: blueviolet;
+}
+.services h2{
+    color: orangered;
+    font-size: 1.6rem;
+} 
+.services ul{
+    margin: 10px 0;
+}
+.services ul li{
+    margin: 8px 0;
+    list-style-type:disc;
+    font-size: 1.2rem;
+}
+@media screen and (max-width:650px){
+    .services h2{
+        font-size: 2rem;
+    } 
+    .services{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .services ul li{
+        list-style: none;
+        font-size: 1.3rem;
+    }
+}

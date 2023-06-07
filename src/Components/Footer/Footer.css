@@ -1,0 +1,20 @@
+.footer{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+    text-align: center;
+}
+.footer hr{
+    margin-bottom: 10px;
+    height: 2px;
+    background-color: orangered;
+}
+.footer span{
+    color: orangered;
+    font-size: 1.3rem;
+    margin: 0 6px;
+}
+.footer p{
+    font-size: 1.2rem;
+}

@@ -1,0 +1,179 @@
+
+.navbar{
+    width: 100%;
+    box-shadow: inset 0px -5px 5px -5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: background-color 0.3s ease-in-out;
+}
+.navbar.blurred {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+  }
+.navbar .left{
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar .left .logo{
+    margin-left: 20px;
+}
+.navbar .left .logo a{
+    color: tomato;
+}
+.navbar .left .menuIcon span{
+    font-size: 25px;
+    cursor: pointer;
+    color: blueviolet;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .left .logo span{
+    color: blueviolet;
+    margin-right: 5px;
+    font-size: 30px;
+}
+.navbar .left .logo{
+        color: tomato;
+}
+.navbar .right{
+    display: flex;
+    width: 45%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar .right .email{
+    margin-right: 40px;
+    font-size: 20px;
+}
+.navbar .right .email a{
+    color: tomato;
+}
+.navbar .right .email ion-icon{
+    margin-right: 10px;
+    font-size: 25px;
+    color: blueviolet;
+}
+.direction a{
+    font-size: 20px;
+    color: tomato;
+}
+.direction img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:800px){
+    .navbar .left{
+        width: auto;
+        margin-right: 40px;
+    }
+    .navbar .right{
+        width: auto;
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width:550px){
+    .navbar .left{
+        margin: auto;
+    }
+    .navbar .left .logo span{
+        font-size: 20px;
+    }
+    .navbar .left .logo a{
+        font-size: 10px;
+    }
+    .navbar .right{
+        margin: auto;
+    }
+    .navbar .right .email{
+        margin-right: 5px;
+        font-size: 15px;
+    }
+    .navbar .right .email ion-icon{
+        font-size: 20px;
+    }
+    .direction a{
+        font-size: 15px;
+        color: tomato;
+    }
+    .direction img{
+        width: 20px;
+        margin-right: 10px;
+    }
+    .navbar .left .logo{
+        margin-left: 10px;
+    }
+}
+
+
+.sideNav{
+    position: absolute;
+    left: 0;
+    top:60px;
+    left: -400px;
+}
+.sideNav.acive{
+    left: 0px;
+}
+
+
+.sideNavbar {
+    width: 300px;
+    height: 100vh;
+    background-color: whitesmoke;
+    z-index: 2;
+    box-shadow: 8px 0px 10px -5px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.sideNavbar ul {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sideNavbar ul li {
+    margin: 10px 0;
+    list-style: none;
+}
+
+.sideNavbar ul li a {
+    font-size: 1.5rem;
+    color: orangered;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 20px;
+    transition: all 0.5s;
+}
+
+.sideNavbar ul li a:hover {
+    color: blueviolet;
+}
+
+.links {
+    margin-top: 50px;
+}
+
+.sideNavbar .cross {
+    width: 100%;
+    text-align: right;
+    cursor: pointer;
+}
+.sideNavbar .cross ion-icon{
+    background-color: orangered;
+    padding: 5px;
+    font-size: 2rem;
+    color: #ffff;
+    border-bottom-left-radius: 24px;
+}

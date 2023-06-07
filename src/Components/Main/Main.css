@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Libre+Baskerville:wght@400;700&family=Montserrat:ital,wght@0,300;0,900;1,400;1,600;1,900&family=Poppins:wght@400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Finger Paint', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    transition: all 0.5s;
+}
