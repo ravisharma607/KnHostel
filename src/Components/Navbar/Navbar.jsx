@@ -22,7 +22,7 @@ const Navbar = () => {
   }
   
   function toggleNavbar(){
-    document.querySelector('.sideNav').classList.toggle('acive')
+    document.querySelector('.sideNav').classList.remove('acive')
   }
 
   return (

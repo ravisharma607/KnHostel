@@ -17,6 +17,7 @@
 .serviceContainer .title{
     font-size: 1.3rem;
     color: blueviolet;
+    margin-bottom: 10px;
 }
 .services h2{
     color: orangered;
