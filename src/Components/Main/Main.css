@@ -12,3 +12,10 @@
     text-decoration: none;
     transition: all 0.5s;
 }
+body{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+}
