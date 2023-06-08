@@ -20,7 +20,7 @@ const Contact = () => {
         // Prepare the WhatsApp message link with form data
         const encodedMessage = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nAddress: ${address}\nMessage: ${message}`;
 console.log(encodedMessage);
-        const whatsappLink = `https://wa.me/7485854791?text=${encodeURIComponent(encodedMessage)}`;
+        const whatsappLink = `https://wa.me/8273885707?text=${encodeURIComponent(encodedMessage)}`;
         // Redirect to WhatsApp
         window.open(whatsappLink, '_blank');
     };
