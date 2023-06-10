@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/KnHostel/static/css/main.15568981.css",
-    "main.js": "/KnHostel/static/js/main.865ca76c.js",
+    "main.css": "/KnHostel/static/css/main.b8fb7b4f.css",
+    "main.js": "/KnHostel/static/js/main.b67dbb66.js",
     "static/media/02.jpg": "/KnHostel/static/media/02.7cad917bbeaabfd459a0.jpg",
     "static/media/09.jpg": "/KnHostel/static/media/09.53f68fbca72afff2267b.jpg",
     "static/media/08.jpg": "/KnHostel/static/media/08.e94fa6bf4eb3b69d0ac8.jpg",
@@ -29,11 +29,11 @@
     "static/media/13.png": "/KnHostel/static/media/13.a92c2df263101574e364.png",
     "static/media/02.png": "/KnHostel/static/media/02.c299842db13988cd9564.png",
     "index.html": "/KnHostel/index.html",
-    "main.15568981.css.map": "/KnHostel/static/css/main.15568981.css.map",
-    "main.865ca76c.js.map": "/KnHostel/static/js/main.865ca76c.js.map"
+    "main.b8fb7b4f.css.map": "/KnHostel/static/css/main.b8fb7b4f.css.map",
+    "main.b67dbb66.js.map": "/KnHostel/static/js/main.b67dbb66.js.map"
   },
   "entrypoints": [
-    "static/css/main.15568981.css",
-    "static/js/main.865ca76c.js"
+    "static/css/main.b8fb7b4f.css",
+    "static/js/main.b67dbb66.js"
   ]
 }
