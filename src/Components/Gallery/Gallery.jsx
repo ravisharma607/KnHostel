@@ -9,17 +9,27 @@ const Gallery = () => {
     return (
         <>
             <div className="Gallerycontainer" id='Gallery'>
-                <div className="heading">
-                    <h2>Gallery</h2>
+                <div className="title">
+                    <h2>Uncover the Beauty of Our Hostel in Pictures</h2>
                 </div>
-
                 <div className="gallery">
                         {
-                            GalleryImgAPI.map((src, index) => {
-                                return <div><img src={src.imgSrc} alt="" /></div>
+                            GalleryImgAPI.map((value, index) => {
+                                return <div key={index} className='imgCard'>
+                                    <div className="img">
+                                    <img src={value.imgSrc} alt="" />
+                                    </div>
+                                    <div className="cardTitle">
+                                        <h4>{value.heading}</h4>
+                                    </div>
+                                    <div className="desc">
+                                        <p>{value.description}</p>
+                                    </div>
+                                    </div>
                             })
                         }
                 </div>
+                <hr />
             </div>
         </>
     )

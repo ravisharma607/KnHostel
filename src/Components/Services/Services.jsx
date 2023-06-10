@@ -1,40 +1,32 @@
 import React from 'react'
 import './Services.css'
+import ServicesAPI from './ServicesAPI'
 const Services = () => {
-  return (
-    <>
-    <div className="serviceContainer" id='Services'>
-        <div className="title"><h1>Our Services</h1></div>
-<div className="services">
-<div className="facilites">
-            <h2>Our Facilities</h2>
-            <ul>
-                <li>24 X 7 Electricity</li>
-                <li>Single Bedroom With Washroom</li>
-                <li>Double Bedroom With Washroom</li>
-                <li>24 X 7 Clean Water Supply</li>
-                <li>24 X 7 Security</li>
-                <li>Order Of Food</li>
-                <li>Furniture Also Given In Rooms</li>
-            </ul>
-        </div>
-
-        <div className="businessDay">
-            <h2>Business Hours</h2>
-            <ul>
-                <li>Mon: Open 24 hours</li>
-                <li>Tue: Open 24 hours</li>
-                <li>Wed: Open 24 hours</li>
-                <li>Thu: Open 24 hours</li>
-                <li>Fri: Open 24 hours</li>
-                <li>Sat: Open 24 hours</li>
-                <li>Sun: Open 24 hours</li>
-            </ul>
-        </div>
-</div>
-    </div>
-    </>
-  )
+    return (
+        <>
+            <div className="serviceContainer" id='Services'>
+                <div className="title"><h2>Our Services</h2></div>
+                <div className="services">
+                    {
+                        ServicesAPI.map((value, index) => {
+                            return <div className="serviceCard" key={index}>
+                                <div className="img">
+                                    <img src={value.imgSrc} alt="" />
+                                </div>
+                                <div className="serviceTitle">
+                                    <h4>{value.heading}</h4>
+                                </div>
+                                <div className="serviceDesc">
+                                    <p>{value.description}</p>
+                                </div>
+                            </div>
+                        })
+                    }
+                </div>
+                <hr />
+            </div>
+        </>
+    )
 }
 
 export default Services

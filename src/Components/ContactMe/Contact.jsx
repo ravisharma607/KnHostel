@@ -12,18 +12,23 @@ const Contact = () => {
       const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
       };
-    
+
       const handleSubmit = (e) => {
         e.preventDefault();
         const { name, email, phone, address, message } = formData;
+      
+        // Prepare the email subject and body
+        const subject = 'About Booking And To Know More';
+        const body = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nAddress: ${address}\nMessage: ${message}`;
+      
+        // Create a mailto link with the subject and body
+        const mailtoLink = `mailto:contact@knhostel.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      
+        // Open the default email client
+        window.location.href = mailtoLink;
+      };
+      
 
-        // Prepare the WhatsApp message link with form data
-        const encodedMessage = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nAddress: ${address}\nMessage: ${message}`;
-console.log(encodedMessage);
-        const whatsappLink = `https://wa.me/8273885707?text=${encodeURIComponent(encodedMessage)}`;
-        // Redirect to WhatsApp
-        window.open(whatsappLink, '_blank');
-    };
 
     return (
         <div className="contactContainer" id='Contact'>
@@ -96,6 +101,7 @@ console.log(encodedMessage);
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3490.952504821613!2d77.63869647539343!3d28.959133175487874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c679a6122e793%3A0xa9bcbca7789d9333!2sKN%20Girl%20Hostel%20-%202!5e0!3m2!1sen!2sin!4v1686127823303!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
+            <hr />
         </div>
     )
 }

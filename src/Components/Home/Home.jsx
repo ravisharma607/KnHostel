@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
     <Navbar />
-      <div className="container" id='Home'>
+      <div className="homeContainer" id='Home'>
         <div class="background-image">
           <img src={bgImg} alt="" />
         </div>

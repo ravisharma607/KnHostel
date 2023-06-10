@@ -1,8 +1,8 @@
-.container {
+.homeContainer {
     position: relative;
     width: 90%;
     height: 500px;
-    margin: 100px auto 20px auto;
+    margin: 130px auto 30px auto;
     filter: drop-shadow(0 0 5px black);
 }
 
@@ -130,7 +130,7 @@
     .btn a{
         font-size: 15px;
     }
-    .container {
+    .homeContainer {
         position: relative;
         width: 95%;
         height: 400px;
