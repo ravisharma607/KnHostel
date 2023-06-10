@@ -54,5 +54,21 @@
   cursor: pointer;
 }
 .testomonial{
+  width: 100%;
   margin-top: 60px;
+}
+@media screen and (max-width:600px){
+  .reviews .title h2{
+    font-size: 1.5rem;
+  }
+  .carousel-indicators{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .carousel-indicators button{
+    margin:auto 5px;
+    border-radius: 50px;
+    height: 10px;
+    width: 40px;
+  }
 }

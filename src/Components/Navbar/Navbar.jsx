@@ -1,7 +1,6 @@
 import React from 'react'
 import './Navbar.css'
 import direction from './Img/direction.png'
-// import direction from '../Home/Home'
 const Navbar = () => {
 
 
@@ -50,10 +49,10 @@ const Navbar = () => {
 
         <div className="left">
           <div className="menuIcon">
-            <span className='flex' onClick={showSideNav}><ion-icon name="menu"></ion-icon></span>
+            <span onClick={showSideNav}><ion-icon name="menu"></ion-icon></span>
           </div>
           <div className="logo">
-            <a href="#"><h2><span>KN</span>Hostel</h2></a>
+            <h2><span>KN</span>Hostel</h2>
           </div>
         </div>
         <div className="right">

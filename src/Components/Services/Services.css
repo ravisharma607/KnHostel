@@ -55,8 +55,8 @@
 
 @media screen and (max-width:750px) {
     .serviceCard {
-        height: 320px;
-        width: 500px;
+        height: auto;
+        width: auto;
     }
     .serviceCard .serviceDesc p {
         font-size: 1.2rem;
